@@ -1,8 +1,13 @@
 import React from 'react'
-
+import { Hero,Legacy,StayConnected } from '../../components'
+import './MainPage.css'
 const MainPage = () => {
   return (
-    <div>Coming Soon</div>
+    <div className='main__page'>
+      <Legacy/>
+      <Hero/>
+      <StayConnected/>
+    </div>
   )
 }
 
