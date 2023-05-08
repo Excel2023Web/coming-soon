@@ -1,4 +1,13 @@
 .stayconnected__container {
-    color: white;
+    color: #ffff;
     font-family: "Karla", sans-serif;   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.stayconnected__container >h1{
+    font-size: 2rem;
+    font-family:"Karla", sans-serif; 
 }

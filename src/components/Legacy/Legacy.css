@@ -1,5 +1,30 @@
-.legacy__container > img{
-    width: 2.5rem;
-    height: 2.5rem;
+/* .legacy__container > img{ */
+    /* width: 2.5rem;
+    height: 2.5rem; */
     /* display:flex; */
+/* } */
+/* .legacy__container_out{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 2rem;
+} */
+.legacy__container_out{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.legacy__container{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+.legacy__container img,a{
+    width: 3rem;
+    height: 3rem;
 }

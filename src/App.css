@@ -1,4 +1,5 @@
-.App {
-  min-height: 100vh;
+.App{
   overflow: hidden;
+  min-height: 100vh;
+  max-width: 100vw;
 }
