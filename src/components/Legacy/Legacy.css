@@ -23,6 +23,7 @@
     width: fit-content;
     gap: 0.5rem;
     flex-wrap: wrap;
+    padding: 2rem;
 }
 .legacy__container img,a{
     width: 3rem;

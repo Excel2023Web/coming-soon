@@ -7,7 +7,34 @@
     align-items: center;
     flex-direction: column;
 }
-.stayconnected__container >h1{
-    font-size: 2rem;
+.stayconnected__container > h1{
+    font-size: 0.5rem;
     font-family:"Karla", sans-serif; 
 }
+.footer_icons {
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+}
+.footer_icons > a{
+    color:#000000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    line-height: 30px;
+    width:30px;
+    height:30px;
+    font-size: 25px;
+    padding: 10px 10px;
+    transition: 0.5s;
+    background-color: #ffffff;
+}
+
+.footer_icons > a:hover{
+    background: #ffffff;
+    color: #2cb7c7;
+}
+
+
+
