@@ -40,23 +40,42 @@
 
 }
 
+@media screen and (max-width: 900px){
+    .hero__section_main > p {
+        font-size: 1.2rem;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .hero__section_main > h1{
         font-size: 2rem;
     }
 }
+@media screen and (max-width:700px) {
+    .hero__section_main > p {
+        font-size: 1rem;
+    }
+}
 
 @media screen and (max-width: 600px) {
+    .hero__section_main > p {
+        font-size: 0.8rem;
+    }
 
 }
 @media screen and (max-width: 500px) {
     .hero__section_main>h1{
         font-size: 1.5rem;
     }
+    .hero__section_main > p {
+        font-size: 0.65rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
-
+    .hero__section_main > p {
+        font-size: 0.52rem;
+    }
 }
   
 @media only screen and (min-device-width: 320px) and (max-device-width: 

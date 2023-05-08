@@ -1,16 +1,17 @@
 .stayconnected__container {
     color: #ffff;
-    font-family: "Karla", sans-serif;   
+    font-family: "Karla", sans-serif;
+    font-size: 1rem;   
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.stayconnected__container > h1{
+/* .stayconnected__container > h1{
     font-size: 0.5rem;
     font-family:"Karla", sans-serif; 
-}
+} */
 .footer_icons {
     display: flex;
     justify-content: center;
@@ -38,3 +39,51 @@
 
 
 
+@media only screen and (max-width: 1300px) {
+
+}
+@media (min-device-width: 20px) and (max-device-width: 500px){
+   
+}
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .stayconnected__container {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+}
+@media screen and (max-width: 500px) {
+    .stayconnected__container {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footer_icons {
+        gap:1.9rem;
+    }
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
+}
