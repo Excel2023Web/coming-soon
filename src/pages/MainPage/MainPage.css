@@ -1,0 +1,28 @@
+.main__page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    min-height: 100vh ;
+    background-color: #212121;
+}
+.main__page_Legacy {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2rem;
+    margin-left: auto;
+} 
+.main__page_Hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__page_StayConnected {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5rem;
+}

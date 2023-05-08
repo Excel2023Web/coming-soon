@@ -2,7 +2,7 @@ import React from 'react'
 import './StayConnected.css'
 const StayConnected = () => {
   return (
-    <div>StayConnected</div>
+    <div className='stayconnected__container'>StayConnected</div>
   )
 }
 
