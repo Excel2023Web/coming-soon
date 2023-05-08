@@ -22,18 +22,18 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    line-height: 30px;
+    /* line-height: 30px; */
     width:30px;
     height:30px;
     font-size: 25px;
     padding: 10px 10px;
-    transition: 0.5s;
-    background-color: #ffffff;
+    background: #ffffff;
 }
 
 .footer_icons > a:hover{
-    background: #ffffff;
-    color: #2cb7c7;
+    background: #2cb7c7;
+    color: #ffff;
+    transition: 0.5s;
 }
 
 
