@@ -15,10 +15,11 @@
     color:#ffffff;
     font-family: "Karla", sans-serif;
     font-size: 1.5rem;
+    text-align: center;
 }
 .hero__section_main > img{
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
 }
 
 
@@ -52,15 +53,15 @@
     }
 }
 @media screen and (max-width:700px) {
-    .hero__section_main > p {
+    /* .hero__section_main > p {
         font-size: 1rem;
-    }
+    } */
 }
 
 @media screen and (max-width: 600px) {
-    .hero__section_main > p {
-        font-size: 0.8rem;
-    }
+    /* .hero__section_main > p {
+        font-size: 1rem;
+    } */
 
 }
 @media screen and (max-width: 500px) {
@@ -68,13 +69,13 @@
         font-size: 1.5rem;
     }
     .hero__section_main > p {
-        font-size: 0.65rem;
+        font-size: 1.1rem;
     }
 }
 
 @media screen and (max-width: 400px) {
     .hero__section_main > p {
-        font-size: 0.52rem;
+        font-size: 0.8rem;
     }
 }
   
