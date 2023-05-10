@@ -29,7 +29,7 @@ const Hero = () => {
         src="https://www.excelmec.org/static/media/home_logo_excel.932cc8102da68199bc0f34683e7527c1.svg"
         alt=""
       />
-      <h1>We Are Coming Soon..</h1>
+      <h1>We Are Coming Soon...</h1>
       <p>
         The national techno managerial symposium of Govt. Model Engineering
         College
