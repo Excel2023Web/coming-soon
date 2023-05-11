@@ -8,9 +8,9 @@ import {FaFacebookSquare} from 'react-icons/fa'
 const StayConnected = () => {
   return (
     <div className='stayconnected__container'>
-      <div>
+      
         <h1>Stay Connected</h1>
-      </div>
+      
       <div className='footer_icons'>
         <a target='_blank' rel='noreferrer' href='https://www.instagram.com/excelmec/'>
           <FaInstagramSquare/>
