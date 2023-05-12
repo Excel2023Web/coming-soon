@@ -1,5 +1,12 @@
 import React from "react";
 import "./Legacy.css";
+import excel2017 from "../../assets/png/excel2017.png";
+import excel2018 from "../../assets/png/excel2018.png";
+import excel2019 from "../../assets/png/excel2019.png";
+import excel2020 from "../../assets/png/excel2020.png";
+import excel2021 from "../../assets/svg/excel2021.svg";
+import excel2022 from "../../assets/svg/excel2022.svg";
+
 const Legacy = () => {
   return (
     <div className="legacy__container_out">
@@ -7,14 +14,14 @@ const Legacy = () => {
         <a href="https://2017.excelmec.org/" target="blank">
           {" "}
           <img
-            src="https://excel2021.netlify.app/excel2017.png"
+            src={excel2017}
             alt=""
             className="logo__2017"
           />
         </a>
         <a href="https://2018.excelmec.org/" target="blank">
           <img
-            src="https://excel2021.netlify.app/excel2018.png"
+            src={excel2018}
             alt=""
             className="logo__2018"
           />
@@ -22,28 +29,28 @@ const Legacy = () => {
         <a href="https://2019.excelmec.org/" target="blank">
           {" "}
           <img
-            src="https://excel2021.netlify.app/excel2019.png"
+            src={excel2019}
             alt=""
             className="logo__2019"
           />
         </a>
         <a href="https://2020.excelmec.org/" target="blank">
           <img
-            src="https://excel2021.netlify.app/excel2020.png"
+            src={excel2020}
             alt=""
             className="logo__2020"
           />
         </a>
         <a href="https://2021.excelmec.org/" target="blank">
           <img
-            src="https://excel2021.netlify.app/excel2021.svg"
+            src={excel2021}
             alt=""
             className="logo__2021"
           />
         </a>
         <a href="https://2022.excelmec.org/" target="blank">
           <img
-            src="https://www.excelmec.org/static/media/home_logo_excel.932cc8102da68199bc0f34683e7527c1.svg"
+            src={excel2022}
             alt=""
             className="logo__2022"
           />

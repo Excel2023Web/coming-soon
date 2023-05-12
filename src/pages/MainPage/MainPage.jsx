@@ -7,12 +7,8 @@ const MainPage = () => {
     <div className="main__page">
       <Stars>
       <Legacy />
-      {/* <div className="main__page_Hero"> */}
-        <Hero />
-      {/* </div> */}
-      {/* <div className="main__page_StayConnected"> */}
-        <StayConnected />
-      {/* </div> */}
+      <Hero />
+      <StayConnected />
       </Stars>
     </div>
   );
