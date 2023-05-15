@@ -29,7 +29,7 @@
 }
 
 .footer_icons > a:hover {
-  background: #2cb7c7;
+  background: var(--themeColour);
   color: #ffff;
   transition: 0.5s;
 }

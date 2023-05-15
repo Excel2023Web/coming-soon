@@ -49,7 +49,7 @@
   position: relative;
   width: 5rem;
   height: 5rem;
-  background: #2cb7c7;
+  background: var(--themeColour);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -59,7 +59,7 @@
 }
 
 .video_btn.active .play {
-  box-shadow: 0 0 0 150vh #2cb7c7;
+  box-shadow: 0 0 0 150vh var(--themeColour);
 }
 
 .video_btn .play::before {
@@ -76,7 +76,7 @@
     width: 110%;
     height: 100%;
     overflow: hidden;
-    background: radial-gradient(200.65% 776.86% at -9.28% 116.91%,#140915 25.44%,#2cb7c7 100%);
+    background: radial-gradient(200.65% 776.86% at -9.28% 116.91%,#140915 25.44%,var(--themeColour) 100%);
     transition: 0.3 ease-in;
 }
 
