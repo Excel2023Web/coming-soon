@@ -2,13 +2,19 @@
 
 .stayconnected__container {
   color: #ffff;
-  font-family: "Ubuntu";
+  /* font-family: "Ubuntu";
   font-size: 1rem;
+  text-align: center; */
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.stayconnected__container > h1{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  text-align: center;
 }
 .footer_icons {
   display: flex;
@@ -48,22 +54,26 @@
 }
 
 @media screen and (max-width: 800px) {
-  .stayconnected__container {
-    font-size: 0.75rem;
+  .stayconnected__container > h1 {
+    font-size: 1.7rem;
   }
 }
 
 @media screen and (max-width: 600px) {
 }
 @media screen and (max-width: 500px) {
-  .stayconnected__container {
-    font-size: 0.5rem;
+  .stayconnected__container > h1{
+    font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 400px) {
   .footer_icons {
-    gap: 1.9rem;
+    gap: 1.6rem;
+  }
+  .footer_icons > a {
+    width: 1.30rem;
+    height: 1.30rem;
   }
 }
 
