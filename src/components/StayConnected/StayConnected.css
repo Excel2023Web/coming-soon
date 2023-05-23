@@ -10,7 +10,7 @@
 }
 .stayconnected__container > h1{
   font-family: "Ubuntu";
-  font-size: 2rem;
+  font-size: 20px;
   text-align: center;
 }
 .footer_icons {
@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 800px) {
   .stayconnected__container > h1 {
-    font-size: 1.7rem;
+    font-size: 15px;
   }
 }
 
@@ -60,7 +60,7 @@
 }
 @media screen and (max-width: 500px) {
   .stayconnected__container > h1{
-    font-size: 1.5rem;
+    font-size: 13px;
   }
 }
 
