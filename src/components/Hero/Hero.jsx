@@ -19,11 +19,13 @@ const Hero = () => {
         <img className="excel_logo" src={excel2022} alt="" />
         <p>Excel 2023</p>
       </div>
+      <div className="hero__desc_area">
         <h1>We Are Coming Soon...</h1>
         <p>
           The national techno managerial symposium of Govt. Model Engineering
           College
         </p>
+      </div>
       <div className="video_btn" onClick={handleClick}>
         <div className="play"></div>
       </div>

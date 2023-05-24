@@ -6,32 +6,41 @@
   align-items: center;
   padding-bottom: 2rem;
 }
-.hero__section_main >p{
-  margin-top: 1px;
+.hero__desc_area{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.hero__desc_area >p{
   font-size: 22px;
   color: #ebe9e9;
+  text-align: center;
 }
 .excel__logo_container{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  line-height: 1px;
   font-size: 38px;
-  margin-top: -10px;
   justify-content: center;
   gap: 1rem;
   align-items: center;
-  font-family: var(--primary-font);
+  font-family:"Karla", sans-serif;
   color: #ebe9e9;
 }
 .excel__logo_container >img{
   width: 6rem;
   height: 6rem;
 }
-.hero__section_main > h1 {
+.hero__desc_area > h1 {
   font-size:70px;
   font-weight: bold;
+  line-height: 1px;
   color: #f4f4f5;
   text-align: center;
-  margin-top: -10px;
 }
 .hero__section_main > p {
   font-family: "Karla", sans-serif;
@@ -44,6 +53,7 @@
 .video_btn {
   position: relative;
   cursor: pointer;
+  margin-top: 2rem;
   animation-name: beat;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -139,7 +149,7 @@
   .hero__section_main{
     gap: 10px;
   }
-  .hero__section_main > h1 {
+  .hero__desc_area > h1 {
     font-size: 39px;
   }
   .video_btn .play {
@@ -151,7 +161,7 @@
   .excel__logo_container{
     font-size: 30px;
   }
-  .hero__section_main >p{
+  .hero__desc_area >p{
     font-size: 14px;
   }
 }
@@ -167,7 +177,7 @@
   }
 }
 @media screen and (max-width: 500px) {
-  .hero__section_main > h1 {
+  .hero__desc_area > h1 {
     font-size: 1.5rem;
   }
   .hero__section_main > p {
