@@ -24,7 +24,8 @@ const Hero = () => {
       <p>
         The national techno managerial symposium of Govt. Model Engineering College
       </p>
-      <div className='video_btn'  onClick={handleClick}>
+      
+      <div className='video_btn' onClick={handleClick} >
           <div className='play'></div>
       </div>
     </div>
