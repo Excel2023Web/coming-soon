@@ -6,14 +6,8 @@ const VideoDialog = ({ handleClose, open }) => {
       fullWidth={true}
       maxWidth={"md"}
       PaperProps={{
-        sx: {
-          width: "100%",
-          borderRadius: "20px",
-          m: 2,
-          backgroundColor: "transparent",
-          overflow: "hidden",
-        },
-        style: { backgroundColor: "transparent" },
+        sx: { width: "100%", borderRadius: '20px', m: 2,backgroundColor: 'transparent',overflow:'hidden'},
+        style: { backgroundColor: 'transparent' }
       }}
       slotProps={{
         backdrop: {
