@@ -31,7 +31,7 @@ const VideoDialog = ({ handleClose, open }) => {
     >
       <div className="video_clip">
         <video
-          src="https://excel-22-website.s3.ap-south-1.amazonaws.com/coming-soon/Comin%20Soon_1.mp4"
+          src="https://excel.s3.ap-south-1.amazonaws.com/aftermovie.mov"
           muted
           autoPlay
         ></video>
