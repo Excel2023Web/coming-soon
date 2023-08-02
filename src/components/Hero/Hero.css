@@ -76,7 +76,7 @@
   position: relative;
   width: 5rem;
   height: 5rem;
-  background: var(--themeColour);
+  background: radial-gradient( 229.65% 772.86% at -8.28% 116.91%, #904e95 5.44%, #3c1053 38% );
   border-radius: 50%;
   display: flex;
   justify-content: center;

@@ -23,6 +23,6 @@ code {
     #904e95 15.44%,
     #3c1053 100%
   ); */
-  --themeColour: radial-gradient( 229.65% 772.86% at -8.28% 116.91%, #904e95 5.44%, #3c1053 38% );
+  --themeColour: #AA076B;
   --primary-font:"Karla", sans-serif;
  }
