@@ -101,7 +101,7 @@
 }
 
 .video_clip{
-    width: 110%;
+    width: 100%;
     height: 100%;
     overflow: hidden;
     background: radial-gradient(200.65% 776.86% at -9.28% 116.91%,#140915 25.44%,var(--themeColour) 100%);
