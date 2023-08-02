@@ -5,14 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(200.65% 776.86% at -9.28% 116.91%,#140915 25.44%,var(--themeColour) 100%);
+  /* background: radial-gradient(200.65% 776.86% at -9.28% 116.91%,#140915 35.44%,var(--themeColour) 100%); */
+  background: radial-gradient(
+    200.65% 776.86% at -9.28% 116.91%,
+    #140915 15.44%,
+    #ad5389 100%
+  );
+  /* background: linear-gradient(to right, #23074d, #cc5333); */
+  /* background: linear-gradient(to right, #aa076b, #61045f); */
+  /* background: linear-gradient(to right, #c94b4b, #4b134f); */
+  /* background: linear-gradient(to right, #23074d, #cc5333); */
+  /* background: linear-gradient(to right, #e96443, #904e95); */
 }
-
+/* #140915 */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
  :root {
-  --themeColour: #2cb7c7;
+  /* --themeColour: #2cb7c7; */
+  --themeColour: #AA076B;
   --primary-font:"Karla", sans-serif;
  }
