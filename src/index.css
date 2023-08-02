@@ -11,19 +11,18 @@ body {
     #140915 15.44%,
     #ad5389 100%
   );
-  /* background: linear-gradient(to right, #23074d, #cc5333); */
-  /* background: linear-gradient(to right, #aa076b, #61045f); */
-  /* background: linear-gradient(to right, #c94b4b, #4b134f); */
-  /* background: linear-gradient(to right, #23074d, #cc5333); */
-  /* background: linear-gradient(to right, #e96443, #904e95); */
 }
-/* #140915 */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
  :root {
   /* --themeColour: #2cb7c7; */
-  --themeColour: #AA076B;
+  /* --themeColour: radial-gradient(
+    200.65% 776.86% at -9.28% 116.91%,
+    #904e95 15.44%,
+    #3c1053 100%
+  ); */
+  --themeColour: radial-gradient( 229.65% 772.86% at -8.28% 116.91%, #904e95 5.44%, #3c1053 38% );
   --primary-font:"Karla", sans-serif;
  }

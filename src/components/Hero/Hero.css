@@ -26,7 +26,7 @@
   line-height: 1px;
   font-size: 38px;
   justify-content: center;
-  gap: 1rem;
+  /* gap: 0.5rem; */
   align-items: center;
   font-family:"Karla", sans-serif;
   color: #ebe9e9;
