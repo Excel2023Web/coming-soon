@@ -26,14 +26,14 @@
   line-height: 1px;
   font-size: 38px;
   justify-content: center;
-  gap: 1rem;
+  /* gap: 0.5rem; */
   align-items: center;
   font-family:"Karla", sans-serif;
   color: #ebe9e9;
 }
 .excel__logo_container >img{
-  width: 6rem;
-  height: 6rem;
+  width: 9rem;
+  height: 9rem;
 }
 .hero__desc_area > h1 {
   font-size:70px;
@@ -76,7 +76,7 @@
   position: relative;
   width: 5rem;
   height: 5rem;
-  background: var(--themeColour);
+  background: radial-gradient( 229.65% 772.86% at -8.28% 116.91%, #FF00BF 5.44%, #3c1053 30% );
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -101,7 +101,7 @@
 }
 
 .video_clip{
-    width: 110%;
+    width: 100%;
     height: 100%;
     overflow: hidden;
     background: radial-gradient(200.65% 776.86% at -9.28% 116.91%,#140915 25.44%,var(--themeColour) 100%);
@@ -114,7 +114,7 @@
 }
 
 .video_clip video {
-  max-width: 56.25rem;
+  width: 100%;
   outline: none;
   box-shadow: 0 0.94rem 2.19rem rgba(0, 0, 0, 0.25);
 }
@@ -129,9 +129,7 @@
 }
 
 @media screen and (max-width: 992px) {
-  .video_clip video {
-    max-width: 90%;
-  }
+  
 }
 
 @media screen and (max-width: 900px) {
