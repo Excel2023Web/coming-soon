@@ -3,18 +3,18 @@ import { Dialog } from "@mui/material";
 const VideoDialog = ({ handleClose, open }) => {
   return (
     <Dialog
-      fullWidth={true}
-      maxWidth={"md"}
-      PaperProps={{
-        sx: {
-          width: "100%",
-          borderRadius: "20px",
-          m: 2,
-          backgroundColor: "transparent",
-          overflow: "hidden",
-        },
-        style: { backgroundColor: "transparent" },
-      }}
+    fullWidth={true}
+    maxWidth={"md"}
+    PaperProps={{
+      sx: {
+        width: "100%",
+        borderRadius: "20px",
+        m: 2,
+        backgroundColor: "transparent",
+        overflow: "hidden",
+      },
+      style: { backgroundColor: "transparent" },
+    }}
       slotProps={{
         backdrop: {
           style: {
