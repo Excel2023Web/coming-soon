@@ -20,9 +20,10 @@ const Hero = () => {
         <p>Excel 2023</p>
       </div>
       <div className="hero__desc_area">
-        <h1>We Are Coming Soon...</h1>
+        <h1>We are coming soon...</h1>
+        {/* <h3>Excel is evolving!</h3> */}
         <p>
-          The national techno managerial symposium of Govt. Model Engineering
+          The national techno-managerial symposium of Govt. Model Engineering
           College
         </p>
       </div>
