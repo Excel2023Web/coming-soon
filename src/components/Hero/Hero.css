@@ -24,16 +24,19 @@
   flex-direction: row;
   flex-wrap: wrap;
   line-height: 1px;
-  font-size: 38px;
   justify-content: center;
-  /* gap: 0.5rem; */
   align-items: center;
+}
+.excel__logo_container > p {
+  font-size: 38px;
   font-family:"Karla", sans-serif;
   color: #ebe9e9;
 }
-.excel__logo_container >img{
+
+.excel_logo{
   width: 9rem;
   height: 9rem;
+  cursor: pointer;
 }
 .hero__desc_area > h1 {
   font-size:70px;
