@@ -24,10 +24,10 @@ const Hero = () => {
         <p>Excel 2023</p>
       </div>
       <div className="hero__desc_area">
-        <h1>We Are Coming Soon...</h1>
+        <h1>Evolution in progress...</h1>
         <p>
           The national techno-managerial symposium of Govt. Model Engineering
-          College
+          College.
         </p>
       </div>
       <div className="video_btn" onClick={handleClick}>
