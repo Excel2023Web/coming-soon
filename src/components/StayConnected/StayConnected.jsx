@@ -2,7 +2,9 @@ import React from "react";
 import "./StayConnected.css";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { GrFacebookOption } from "react-icons/gr";
-import { ImLinkedin2, ImTwitter } from "react-icons/im";
+import { ImLinkedin2 } from "react-icons/im";
+import { RiTwitterXFill } from "react-icons/ri";
+
 const StayConnected = () => {
   return (
     <div className="stayconnected__container">
@@ -31,7 +33,7 @@ const StayConnected = () => {
           <ImLinkedin2 />
         </a>
         <a target="_blank" rel="noreferrer" href="https://twitter.com/excelmec">
-          <ImTwitter />
+          <RiTwitterXFill />
         </a>
       </div>
     </div>
