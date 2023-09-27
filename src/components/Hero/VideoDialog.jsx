@@ -1,6 +1,6 @@
 import React from "react";
 import { Dialog } from "@mui/material";
-import afterMovie from "../../assets/mp4/aftermovie.mp4";
+// import afterMovie from "../../assets/mp4/aftermovie.mp4";
 
 const VideoDialog = ({ handleClose, open }) => {
   return (
@@ -35,8 +35,8 @@ const VideoDialog = ({ handleClose, open }) => {
       <div className="video_clip">
         <video
           // src="https://excel.s3.ap-south-1.amazonaws.com/aftermovie.mov"
-          // src = "https://comingsoonpage.pages.dev/Aftermovie.mp4"
-          src={afterMovie}
+          src = "https://storage.googleapis.com/excel-mec-2023-static-8267634/aftermovie2022.mp4"
+          // src={afterMovie}
           muted
           autoPlay
         ></video>
