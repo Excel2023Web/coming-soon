@@ -5,53 +5,45 @@ import { Dialog } from "@mui/material";
 const VideoDialog = ({ handleClose, open }) => {
   return (
     <Dialog
-      fullWidth={true}
-      maxWidth={"md"}
-      PaperProps={{
-        sx: {
-          width: "100%",
-          borderRadius: "20px",
-          m: 2,
-          backgroundColor: "transparent",
-          overflow: "hidden",
-        },
-        style: { backgroundColor: "transparent" },
-      }}
-      slotProps={{
-        backdrop: {
-          style: {
-            opacity: 0.5,
-            background:
-              // "linear-gradient(90deg, #0C4C82 -13.51%, #0D4F84 -12.59%, #187BA2 5.14%, #1F9BB8 20.99%, #24AFC5 34.24%, #26B6CA 43.28%, #30B9C7 50.27%, #4DBFBE 62.37%, #7ACBAF 78.1%, #B1D89E 94.53%)",
-              "linear-gradient(to right, #e96443, #904e95)",
-          },
-        },
-      }}
-      open={open}
-      onClose={handleClose}
-      aria-labelledby="alert-dialog-title"
-      aria-describedby="alert-dialog-description"
-    >
-      <div className="video_clip">
-        {/* <video
-          // src="https://excel.s3.ap-south-1.amazonaws.com/aftermovie.mov"
-          src = "https://storage.googleapis.com/excel-mec-2023-static-8267634/aftermovie2022.mp4"
-          // src={afterMovie}
-          muted
-          autoPlay
-        ></video> */}
-        <video preload="auto" muted autoPlay>
-          <source
-            src="https://storage.googleapis.com/excel-mec-2023-static-8267634/aftermovie2022-h264.mp4"
-            type="video/mp4"
-          ></source>
-          <source
-            src="https://storage.googleapis.com/excel-mec-2023-static-8267634/aftermovie2022.webm"
-            type="video/webm"
-          ></source>
-        </video>
-      </div>
-    </Dialog>
+  fullWidth={true}
+  maxWidth={"md"}
+  PaperProps={{
+    sx: {
+      width: "100%",
+      borderRadius: "20px",
+      m: 2,
+      backgroundColor: "transparent",
+      overflow: "hidden",
+    },
+    style: { backgroundColor: "transparent" },
+  }}
+  slotProps={{
+    backdrop: {
+      style: {
+        opacity: 0.5,
+        background:
+          "linear-gradient(to right, #e96443, #904e95)",
+      },
+    },
+  }}
+  open={open}
+  onClose={handleClose}
+  aria-labelledby="alert-dialog-title"
+  aria-describedby="alert-dialog-description"
+>
+  <div className="video-container">
+    <video preload="auto" muted autoPlay>
+      <source
+        src="https://storage.googleapis.com/excel-mec-2023-static-8267634/aftermovie2022-h264.mp4"
+        type="video/mp4"
+      ></source>
+      <source
+        src="https://storage.googleapis.com/excel-mec-2023-static-8267634/aftermovie2022.webm"
+        type="video/webm"
+      ></source>
+    </video>
+  </div>
+</Dialog>
   );
 };
 
