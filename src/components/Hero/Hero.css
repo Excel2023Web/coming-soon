@@ -79,7 +79,8 @@
   position: relative;
   width: 5rem;
   height: 5rem;
-  background: radial-gradient( 229.65% 772.86% at -8.28% 116.91%, #FF00BF 5.44%, #3c1053 30% );
+  background: radial-gradient(229.65% 772.86% at -8.28% 116.91%,#f86 5.44%,#62063f 30%);
+
   border-radius: 50%;
   display: flex;
   justify-content: center;
