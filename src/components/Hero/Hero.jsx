@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "./Hero.css";
 import VideoDialog from "./VideoDialog";
-// import excel2022 from "../../assets/png/excel2023.png";
-import excel2023 from "../../assets/png/excel-logo.png";
+import excel2023 from "../../assets/png/excellogo-2023.png";
 
 const Hero = () => {
   const [open, setOpen] = useState(false);

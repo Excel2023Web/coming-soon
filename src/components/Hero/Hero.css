@@ -34,9 +34,10 @@
 }
 
 .excel_logo{
-  width: 6rem;
+  width: 9rem;
   height: 9rem;
   cursor: pointer;
+  pointer-events: none;
 }
 .hero__desc_area > h1 {
   font-size:70px;
