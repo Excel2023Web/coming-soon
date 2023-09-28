@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Hero.css";
 import VideoDialog from "./VideoDialog";
-import excel2023 from "../../assets/png/excellogo-2023.png";
+import excel2023 from "../../assets/png/excel-logo-with-text-2023.png";
 
 const Hero = () => {
   const [open, setOpen] = useState(false);
@@ -21,7 +21,7 @@ const Hero = () => {
       <VideoDialog open={open} handleClose={handleClose} />
       <div className="excel__logo_container">
           <img className="excel_logo" src={excel2023} alt="" onClick={handleClickImage}/>
-        <p>Excel 2023</p>
+        {/* <p>Excel 2023</p> */}
       </div>
       <div className="hero__desc_area">
         <h1>Evolution in progress...</h1>

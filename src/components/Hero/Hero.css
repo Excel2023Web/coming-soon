@@ -34,10 +34,10 @@
 }
 
 .excel_logo{
-  width: 9rem;
+  width: 14rem;
   height: 9rem;
   cursor: pointer;
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 .hero__desc_area > h1 {
   font-size:70px;
@@ -178,6 +178,10 @@
   }
 }
 @media screen and (max-width: 700px) {
+  .excel_logo{
+    width: 12rem;
+    height: 8rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
