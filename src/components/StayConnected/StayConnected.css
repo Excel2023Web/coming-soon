@@ -7,7 +7,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 8rem;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
 }
 .stayconnected__container > h1{
   font-family: "Ubuntu";
@@ -56,9 +57,9 @@
   .stayconnected__container > h1 {
     font-size: 15px;
   }
-  .stayconnected__container { 
+  /* .stayconnected__container { 
     margin-top: 11rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 600px) {
@@ -67,9 +68,9 @@
   .stayconnected__container > h1{
     font-size: 13px;
   }
-  .stayconnected__container { 
+  /* .stayconnected__container { 
     margin-top: 13rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 400px) {
