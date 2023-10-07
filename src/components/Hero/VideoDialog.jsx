@@ -32,15 +32,15 @@ const VideoDialog = ({ handleClose, open }) => {
   aria-describedby="alert-dialog-description"
 >
   <div className="video-container">
-    <video preload="auto" muted autoPlay>
+    <video preload="auto" autoPlay>
       <source
         src="https://storage.googleapis.com/excel-mec-2023-static-8267634/aftermovie2022-h264.mp4"
         type="video/mp4"
       ></source>
-      <source
+      {/* <source
         src="https://storage.googleapis.com/excel-mec-2023-static-8267634/aftermovie2022.webm"
         type="video/webm"
-      ></source>
+      ></source> */}
     </video>
   </div>
 </Dialog>
