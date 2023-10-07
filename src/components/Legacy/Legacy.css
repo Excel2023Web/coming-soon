@@ -13,17 +13,41 @@
   flex-wrap: wrap;
   padding: 2rem;
 }
-.legacy__container img,
-a {
+.legacy__container >a {
   width: 3rem;
   height: 3rem;
+}
+
+.logo__2017 {
+  width:3.5rem;
+  height:3.3rem;
+}
+.logo__2018 {
+  width:2.5rem;
+  height:3rem;
+  padding-left: 0.2rem;
+}
+.logo__2019 {
+  width:3rem;
+  height:3rem;
+}
+.logo__2020 {
+  width:3rem;
+  height:3rem;
+}
+.logo__2021 {
+  width:3rem;
+  height:3rem;
+}
+.logo__2022 {
+  width:3rem;
+  height:3rem;
 }
 
 @media only screen and (max-width: 1300px) {
 }
 @media (min-device-width: 20px) and (max-device-width: 500px) {
-  .legacy__container img,
-  a {
+  .legacy__container >a {
     width: 2.3rem;
     height: 2.3rem;
   }
@@ -44,10 +68,38 @@ a {
 }
 
 @media screen and (max-width: 400px) {
-  .legacy__container img,
-  a {
+  .legacy__container {
+    gap: 0.5rem;
+  }
+  .legacy__container >a {
     width: 2rem;
     height: 2rem;
+  }
+  .logo__2017 {
+    width:3rem;
+    height:2.9rem;
+    margin-top: -0.15rem;
+  }
+  .logo__2018 {
+    width:2rem;
+    height:2.5rem;
+    padding-left: 0.2rem;
+  }
+  .logo__2019 {
+    width:2.5rem;
+    height:2.5rem;
+  }
+  .logo__2020 {
+    width:2.5rem;
+    height:2.5rem;
+  }
+  .logo__2021 {
+    width:2.5rem;
+    height:2.5rem;
+  }
+  .logo__2022 {
+    width:2.5rem;
+    height:2.5rem;
   }
 }
 

@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import "./Hero.css";
 import VideoDialog from "./VideoDialog";
-import excel2022 from "../../assets/png/excel2023.png";
+import excel2023 from "../../assets/png/excel-logo-with-text-2023.png";
 
 const Hero = () => {
   const [open, setOpen] = useState(false);
 
+  const handleClickImage = () => {
+    const externalURL = "https://www.excelmec.org/";
+    window.location.href = externalURL;
+  };
   const handleClick = () => {
     setOpen(true);
   };
@@ -16,14 +20,14 @@ const Hero = () => {
     <div className="hero__section_main">
       <VideoDialog open={open} handleClose={handleClose} />
       <div className="excel__logo_container">
-        <img className="excel_logo" src={excel2022} alt="" />
-        <p>Excel 2023</p>
+          <img className="excel_logo" src={excel2023} alt="" onClick={handleClickImage}/>
+        {/* <p>Excel 2023</p> */}
       </div>
       <div className="hero__desc_area">
-        <h1>We Are Coming Soon...</h1>
+        <h1>Evolution in progress...</h1>
         <p>
-          The national techno managerial symposium of Govt. Model Engineering
-          College
+          The national techno-managerial symposium of Govt. Model Engineering
+          College.
         </p>
       </div>
       <div className="video_btn" onClick={handleClick}>

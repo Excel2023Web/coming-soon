@@ -6,12 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background: radial-gradient(200.65% 776.86% at -9.28% 116.91%,#140915 35.44%,var(--themeColour) 100%); */
-  background: radial-gradient(
+  /* background: radial-gradient(
     200.65% 776.86% at -9.28% 116.91%,
     #140915 15.44%,
     #80489C 100%
-  );
-}
+  ); */
+  background: radial-gradient(200.65% 776.86% at -9.28% 116.91%,#140915 15.44%,#aa0761 100%);
+ }
 /* #ad5389 */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -24,6 +25,6 @@ code {
     #904e95 15.44%,
     #3c1053 100%
   ); */
-  --themeColour: #AA076B;
+  --themeColour: #aa0761;
   --primary-font:"Karla", sans-serif;
  }
