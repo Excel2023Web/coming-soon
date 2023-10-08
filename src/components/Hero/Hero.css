@@ -35,7 +35,7 @@
 
 .excel_logo{
   width: 14rem;
-  height: 9rem;
+  /* height: 9rem; */
   cursor: pointer;
   /* pointer-events: none; */
 }
@@ -180,7 +180,7 @@
 @media screen and (max-width: 700px) {
   .excel_logo{
     width: 12rem;
-    height: 8rem;
+    /* height: 8rem; */
   }
 }
 
