@@ -36,7 +36,7 @@
 .excel_logo{
   width: 14rem;
   height: 9rem;
-  cursor: pointer;
+  /* cursor: pointer; */
   /* pointer-events: none; */
 }
 .hero__desc_area > h1 {
