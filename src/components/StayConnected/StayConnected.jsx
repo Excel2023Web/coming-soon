@@ -33,7 +33,7 @@ const StayConnected = () => {
           <ImLinkedin2 />
         </a>
         <a target="_blank" rel="noreferrer" href="https://twitter.com/excelmec">
-          <RiTwitterXFill />
+          <RiTwitterXFill/>
         </a>
       </div>
     </div>
