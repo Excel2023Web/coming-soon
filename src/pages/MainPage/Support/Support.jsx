@@ -47,7 +47,7 @@ const Support = () => {
                     <FiMail />
                   </a>
                   <a
-                    href={`tel:${contact.phone}`}
+                    href={`tel:${contact.phno}`}
                     target="_blank"
                     rel="noreferrer"
                   >
